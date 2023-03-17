@@ -1,6 +1,8 @@
 
 
-# Okta is a cloud identity and access management (IAM) platform that can be integrated with a Spring Boot application for authentication and authorization.
+# Okta is a cloud identity and access management (IAM) 
+
+Okta platform that can be integrated with a Spring Boot application for authentication and authorization.
 
 Here are the steps to configure Okta in a Spring Boot application:
 
@@ -22,7 +24,9 @@ Here are the steps to configure Okta in a Spring Boot application:
 
 #### 3. Configure Okta properties:
 
-Configure the Okta properties in your application.properties or application.yml file. Here is an example configuration:
+Configure the Okta properties in your application.properties or application.yml file. 
+
+Here is an example configuration:
 
 
 ```
@@ -37,7 +41,7 @@ okta.oauth2.scopes=openid profile email
 ```
 
 
-#### . Secure your endpoints: 
+#### 4. Secure your endpoints: 
 
 Secure your endpoints by adding the @PreAuthorize annotation to your controller methods. 
 
